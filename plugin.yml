@@ -1,0 +1,6 @@
+name: CustomSnowballs
+api: 4.0.0
+version: 2.0
+author: AmmyRQ
+main: AmmyRQ\Snowballs\Main
+depend: ["FormAPI", "EconomyAPI"]
