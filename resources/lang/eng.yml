@@ -1,0 +1,70 @@
+---
+# Indicates the name and characteristics of the CustomSnowballs
+#   Image types: 0 -> in-game textures, 1 -> image by URL
+fireball:
+  name: "§6Fireball"
+  description: "When it comes into contact with a player, it will set him on fire."
+  effects: "§f> §dBurning §f- §68 seconds"
+  price: "30000"
+  img:
+    type: 0
+    url: "textures/ui/icon_trending"
+
+iceball:
+  name: "§bIceball"
+  description: "When it comes into contact with a player, it will slow him down."
+  effects: "§f> §dSlowness §f- §bLevel II §f- §615 seconds"
+  price: "45000"
+  img:
+    type: 0
+    url: "textures/ui/icon_winter"
+
+enderball:
+  name: "§7Enderball"
+  description: "When it comes into contact with a player, it will exchange its position with yours."
+  effects: "§f> §dInstantaneous position swap"
+  price: "55000"
+  img:
+    type: 0
+    url: "textures/ui/icon_import"
+
+toxicball:
+  name: "§3Toxic ball"
+  description: "When it comes into contact with a player, he/she will be blinded, nauseated and poisoned."
+  effects: "§f> §dBlindness §f- §bLevel II §f- §68 seconds\n§f> §dNausea §f- §bLevel III §f- §68 seconds\n§f> §dPoison §f- §bLevel II §f- §65 seconds"
+  price: "60000"
+  img:
+    type: 0
+    url: "textures/ui/wither_effect"
+
+thunderball:
+  name: "§9Thunderball"
+  description: "When it comes into contact with a player, he/she will be struck by lightning."
+  effects: "§f> §dReduce 4 hearts\n§f> §dBlindness §f- §bLevel II §f- §63 seconds"
+  price: "630000"
+  img:
+    type: 0
+    url: "textures/ui/weather_thunderstorm"
+
+# General messages
+notEnoughSpace-Inventory: "§c> You do not have enough space in your inventory to buy this."
+notEnoughMoney: "§c> You do not have enough money to buy this."
+boughtSuccessfully: "§a> §bx<amount> §asnowballs bought successfully for §6$<cost>"
+canNotBeLessThan1: "§c> The amount of snowballs cannot be less than 1."
+worldNotAllowed: "§c> You cannot use CustomSnowballs in this world."
+reloadingBall: "§gReloading..."
+ballReloaded: "§aReady!"
+
+confirmation-true: "Buy"
+confirmation-false: "Cancel"
+exit: "Quit"
+menu:
+  title: "§a§k!!! §r§6CustomSnowballs §0- §bShop §a§k!!!"
+  content: "Select a snowball to see its effects:"
+setPurchase:
+  title: "{name} §0-<>- §fSet up purchase"
+  content: "Description: §7{description}\n\n§r§fSnowball effects:\n{effects}\n\n§r§aCost per snowball: §6${price}\n\n§fWrite the amount of snowballs that you want to buy:"
+confirmation:
+  title: "Confirm purchase"
+  content: "Snowball: {name}\n\n§a> Description: §7{description}\n\n§a> Amount: §f{amount}\n\n§a> Total cost: §6{cost}"
+...

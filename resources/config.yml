@@ -1,0 +1,21 @@
+---
+# Available languages:
+#   eng -> English
+#   spa -> Spanish
+#   it -> Italian
+currentLanguage: "eng"
+
+# Worlds in which CustomSnowballs can be used
+allowedWorlds:
+  - world
+  - ExampleWorldName
+
+# Available CustomSnowballs
+# DO NOT MODIFY unless you have created of modified your own CustomSnowballs from the plugin's code
+availableCustomSnowballs:
+  - fireball
+  - iceball
+  - enderball
+  - toxicball
+  - thunderball
+...

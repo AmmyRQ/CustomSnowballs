@@ -1,0 +1,70 @@
+---
+# Indica los nombres y características de las CustomSnowballs
+#   Tipos de imágen (type): 0 -> texturas dentro del juego, 1 -> imágenes por URL
+fireball:
+  name: "§6Bola de fuego"
+  description: "Al entrar en contacto con un jugador, se encenderá en llamas."
+  effects: "§f> §dEnciende en llamas §f- §68 segundos"
+  price: "30000"
+  img:
+    type: 0
+    url: "textures/ui/icon_trending"
+
+iceball:
+  name: "§bBola de hielo"
+  description: "Al entrar en contacto con un jugador, lo frenará durante unos momentos."
+  effects: "§f> §dLentitud §f- §bNivel II §f- §615 segundos"
+  price: "45000"
+  img:
+    type: 0
+    url: "textures/ui/icon_winter"
+
+enderball:
+  name: "§7Enderball"
+  description: "Al entrar en contacto con un jugador, intercambiará su posición con la tuya."
+  effects: "§f> §dIntercambio de posición instantáneo"
+  price: "55000"
+  img:
+    type: 0
+    url: "textures/ui/icon_import"
+
+toxicball:
+  name: "§3Bola envenenada"
+  description: "Al entrar en contacto con un jugador, será envenenado, cegado y obtendrá nauseas."
+  effects: "§f> §dCeguera §f- §bNivel II §f- §68 segundos\n§f> §dNauseas §f- §bNivel III §f- §68 segundos\n§f> §dVeneno §f- §bNivel II §f- §65 segundos"
+  price: "60000"
+  img:
+    type: 0
+    url: "textures/ui/wither_effect"
+
+thunderball:
+  name: "§9Bola de rayo"
+  description: "Al entrar en contacto con un jugador, recibirá el impacto de un rayo."
+  effects: "§f> §dReduce 4 corazones\n§f> §dCeguera §f- §bNivel II §f- §63 segundos"
+  price: "630000"
+  img:
+    type: 0
+    url: "textures/ui/weather_thunderstorm"
+
+# Mensajes generales
+notEnoughSpace-Inventory: "§c> No cuentas con suficiente espacio en tu inventario para comprar esto."
+notEnoughMoney: "§c> No tienes suficiente dinero para comprar esto."
+boughtSuccessfully: "§a> §bx<amount> §abolas de nieve compradas por §6$<cost> §aexitosamente."
+canNotBeLessThan1: "§c> La cantidad de bolas de nieve no puede ser menor a 1."
+worldNotAllowed: "§c> No puedes utilizar CustomSnowballs en este mundo."
+reloadingBall: "§gRecargando..."
+ballReloaded: "§a¡Listo!"
+
+confirmation-true: "Comprar"
+confirmation-false: "Cancelar"
+exit: "Salir"
+menu:
+  title: "§a§k!!! §r§6CustomSnowballs §0- §bTienda §a§k!!!"
+  content: "Selecciona una bola para ver sus características:"
+setPurchase:
+  title: "{name} §0-<>- §fConfigurar compra"
+  content: "Descripción: §7{description}\n\n§r§fEfectos:\n{effects}\n\n§r§aCosto por objeto: §6${price}\n\n§fIntroduce la cantidad de bolas que deseas comprar:"
+confirmation:
+  title: "Confirmar compra"
+  content: "Bola: {name}\n\n§a> Descripción: §7{description}\n\n§a> Cantidad: §f{amount}\n\n§a> Precio total: §6{cost}"
+...
